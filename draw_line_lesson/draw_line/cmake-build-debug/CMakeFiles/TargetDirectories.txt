@@ -1,0 +1,4 @@
+/Users/michael.bacci/Workspace/ISEP/2017/lesson_06/draw_line/cmake-build-debug/CMakeFiles/demo.dir
+/Users/michael.bacci/Workspace/ISEP/2017/lesson_06/draw_line/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michael.bacci/Workspace/ISEP/2017/lesson_06/draw_line/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/michael.bacci/Workspace/ISEP/2017/lesson_06/draw_line/cmake-build-debug/CMakeFiles/draw.dir

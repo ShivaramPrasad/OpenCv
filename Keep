@@ -1,0 +1,37 @@
+>> compilation code : g++ `pkg-config --cflags opencv` facedetect.cpp `pkg-config --libs opencv`
+
+>> running code : ./a.out
+
+LOCATION OF COMPILATION :
+-----------------------
+>> pkg-config --cflags opencv:
+-I/usr/local/include/opencv -I/usr/local/include
+
+>> pkg-config --libs opencv:
+-L/usr/local/lib -lopencv_shape -lopencv_stitching -lopencv_objdetect -lopencv_superres -lopencv_videostab -lopencv_calib3d -lopencv_features2d -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_video -lopencv_photo -lopencv_ml -lopencv_imgproc -lopencv_flann -lopencv_viz -lopencv_core
+
+>> Using make and writing Makefile ( in C++ or C ) >>youtube explantion 
+
+
+>> to enable the file to be executable run this command : sudo chmod 744
+
+HOME WORK:
+---------
+>>win1: lighting and darking
+>>win2: mouse operation
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
