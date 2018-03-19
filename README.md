@@ -1,6 +1,6 @@
 # OpenCv
 
-#These are the following steps is to setup OpenCV in our Environment:
+## These are the following steps is to setup OpenCV in our Environment:
 
    1 version="$(wget -q -O - http://sourceforge.net/projects/opencvlibrary/files/opencv-unix | egrep -m1 -o '\"[0-9](\.[0-9]+)+' | cut -c2-)"
 
@@ -25,7 +25,7 @@
   11 echo "Installing OpenCV" $version
 
   12 unzip OpenCV-$version.zip
--
+
   13 cd opencv-$version
 
   14 mkdir build
@@ -43,16 +43,17 @@
   20 sudo ldconfig
 
   21 echo "OpenCV" $version "ready to be used".......
+-
 
-
-#After the setup, Once the program code is ready execute in terminal using these following commands :
+## After the setup, Once the program code is ready execute in terminal using these following commands :
 
 >> compilation code : g++ `pkg-config --cflags opencv` filename.cpp `pkg-config --libs opencv`
 
 >> running code : ./a.out
 
+-
 
-#This git repository contains some basics of OpenCV you can see those outputs as follows :
+## This git repository contains some basics of OpenCV you can see those outputs as follows :
 
 folder-> Point2color 
 ![image](https://user-images.githubusercontent.com/37517830/37601676-f9ee6972-2b8a-11e8-9e42-e96d3b013204.png)
@@ -61,8 +62,9 @@ folder-> Point2color
 -> resize
 ![image](https://user-images.githubusercontent.com/37517830/37602446-aaf18820-2b8c-11e8-96b8-4b23e098d319.png)
 
+-
 
-#OpenCV CheatCode Sheet
+## OpenCV CheatCode Sheet
 
 For more refernce i have uploaded a  pdf file to get things know more about basic commands and codes of OpenCV library
 
